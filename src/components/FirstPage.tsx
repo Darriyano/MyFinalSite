@@ -1,10 +1,9 @@
-import React from 'react';
+import React, {FC} from 'react';
 import './firstpagestyle.css';
 import FirstPhoto from "./FirstPhoto";
 
 
-let FirstPage: React.FC;
-FirstPage = () => {
+const FirstPage: FC = () => {
     return (
         <div id="first-page">
             <div className="first-container">

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {FC} from 'react';
 import './firstpagestyle.css';
 
-const Menu = () => {
+const Menu: FC = () => {
     return (
         <nav className="main-menu">
             <ul className="menu">
