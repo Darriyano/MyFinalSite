@@ -1,33 +1,36 @@
-.main-page{
-    position: relative;
-    background-color: #17181A;
-    width: 1920px;
-    height: 1080px;
+@font-face {
     font-family: Khand;
+    src: local("Khand-regular"), url('./Khand-Regular.ttf');
 }
 
 .photo_main {
+    margin-left: 106px;
     position: absolute;
     top: 111px;
-    left: 106px;
     width: 537px;
     height: 775px;
 }
 
 .main_menu {
+    position: absolute;
+    background-color: #17181A;
     text-align: right;
     margin-right: 70px;
 }
 
 .menu {
-    left: 958px;
+    position: absolute;
+    width: 100%;
+    background-color: #17181A;
 }
 
 .menu li{
+    font-family: Khand;
+    background-color: #17181A;
     display: inline-block;
     margin-left: 70px;
     margin-top: 25px;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .menu li a{
@@ -35,3 +38,50 @@
     text-decoration: none;
     color: #EDEDED;
 }
+
+.menu li a:hover{
+    color: #40BA21;
+}
+
+#first-page {
+    background-color: #17181A;
+    width: 1920px;
+    height: 1080px;
+}
+
+.first-container {
+    position: relative;
+}
+
+.top-text {
+    font-family: Khand;
+    color: #EDEDED;
+    position: absolute;
+    top: 372px;
+    left: 824px;
+    font-size: 70px;
+}
+
+.medium-text {
+    font-family: Khand;
+    color: #EDEDED;
+    position: absolute;
+    top: 445px;
+    left: 824px;
+    font-size: 90px;
+}
+
+.final-text {
+    font-family: Khand;
+    color: #EDEDED;
+    position: absolute;
+    top: 556px;
+    left: 1073px;
+    font-size: 70px;
+}
+
+
+span {
+    color: #40BA21;
+}
+
