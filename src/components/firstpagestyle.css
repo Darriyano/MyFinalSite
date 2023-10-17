@@ -1,7 +1,7 @@
-@font-face {
-    font-family: Khand;
-    src: local("Khand-regular"), url('./Khand-Regular.ttf');
-}
+/*@font-face {*/
+/*    font-family: Khand;*/
+/*    src: local("Khand-regular"), url('./Khand-Regular.ttf');*/
+/*}*/
 
 .photo_main {
     margin-left: 106px;
@@ -23,7 +23,6 @@
     width: max-content;
     background-color: #17181A;
     left: 920px;
-
 }
 
 .menu li{
