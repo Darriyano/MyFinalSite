@@ -1,0 +1,21 @@
+#third-page {
+    background-color: #17181A;
+    width: 1920px;
+    height: 1080px;
+}
+
+.third-container{
+    position: relative;
+}
+
+.title-skills {
+    font-family: Khand, sans-serif;
+    position: absolute;
+    width: 310px;
+    height: 98px;
+    top: 86px;
+    color: #EDEDED;
+    font-size: 70px;
+    padding: 0 3px 20px 74px;
+    background-color: #40BA21;
+}
