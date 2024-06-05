@@ -4,6 +4,10 @@ import FirstPage from './components/FirstPage';
 import Menu from "./components/menu";
 import SecondPage from "./components/SecondPage";
 import ThirdPage from "./components/thirdPage";
+import FourthPage from "./components/FourthPage";
+import FifthPage from "./components/FifthPage";
+import SixthPage from "./components/SixthPage";
+
 
 
 function App() {
@@ -13,6 +17,9 @@ function App() {
     <FirstPage/>
        <SecondPage/>
           <ThirdPage/>
+          <FourthPage/>
+          <FifthPage/>
+        <SixthPage/>
       </div>
   );
 }

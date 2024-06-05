@@ -1,8 +1,3 @@
-/*@font-face {*/
-/*    font-family: Khand;*/
-/*    src: local("Khand-regular"), url('./Khand-Regular.ttf');*/
-/*}*/
-
 .photo_main {
     margin-left: 106px;
     position: absolute;
@@ -18,15 +13,20 @@
     margin-right: 70px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .menu {
     position: absolute;
     width: max-content;
     background-color: #17181A;
-    left: 920px;
+    margin-left: 650px;
 }
 
 .menu li{
-    font-family: Khand;
+    font-family: Khand, serif;
     background-color: #17181A;
     display: inline-block;
     margin-left: 70px;
@@ -46,8 +46,9 @@
 
 #first-page {
     background-color: #17181A;
-    width: 1920px;
+    width: 100%;
     height: 1080px;
+
 }
 
 .first-container {
